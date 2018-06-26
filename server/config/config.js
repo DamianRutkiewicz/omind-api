@@ -5,6 +5,6 @@ if (env === 'developmnent') {
   process.env.PORT = 3000;
   process.env.MONGOODB_URI = 'mongodb://localhost:27017/oMind';
 } else {
-  process.env.PORT = 3000;
+  process.env.PORT;
   process.env.MONGOODB_URI = 'mongodb://localhost:27017/oMind';
 }
