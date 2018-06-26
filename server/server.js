@@ -104,6 +104,8 @@ app.get('/activity', (req, res) => {
 
     const result = _.fromPairs(_.map(todos, i => [i._id, i]));
     res.send(result);
+  }).catch(() => {
+    res.send({error:'something went wrong'})
   })
 
   // console.log("kurwa ciekawe : ")
