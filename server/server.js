@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
     // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080');
-    res.setHeader('Access-Control-Allow-Origin', 'https://damianrutkiewicz.pl/oMind/start');
+    res.setHeader('Access-Control-Allow-Origin', 'https://guarded-escarpment-86027.herokuapp.com/activity');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
